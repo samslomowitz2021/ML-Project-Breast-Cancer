@@ -17,10 +17,10 @@ def home():
     # Return template and data
     return render_template("index.html")
 
-@app.route("/about_me")
+@app.route("/about")
 def aboutme():
     # Return template and data
-    return render_template("about_me.html")
+    return render_template("about.html")
 
 @app.route("/tableau")
 def tableau():
@@ -35,7 +35,7 @@ def table():
 @app.route("/sources")
 def sources():
     # Return template and data
-    return render_template("worksCited.html")
+    return render_template("workCited.html")
 
 @app.route("/prediction")
 def prediction():
